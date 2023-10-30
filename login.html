@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body class="login">
+    <div class="container">
+        <div class="center">
+            <h2>TRAVELEEN</h2>
+            <h1>Masuk</h1>
+            <h3 class ="name">ADITYO NUGROHO</h3>
+        </div>
+        <form id="login-form">
+            <label for="username">Username atau Email</label>
+            <input type="text" id="username" name="username" required placeholder="adityonugroho@gmail.com">
+            <br>
+            <label for="password">Kata Sandi:</label>
+            <input type="password" id="password" name="password" required placeholder="*******">            
+            <br>
+            <div class="remember-forgot">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Ingat Saya</label>
+                </div>
+                <div class="forgot-password">
+                    <a href="#">Lupa Kata Sandi</a>
+                </div>
+            </div>
+            <br>
+            <button type="submit">Masuk</button>
+        </form>
+        <p id="error-message" class="error-message"></p>
+        <p class="center">Tidak Punya Akun? <a href="daftar.html">Daftar</a></p>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
